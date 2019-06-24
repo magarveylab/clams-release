@@ -1,0 +1,12 @@
+*.Rproj
+.R*
+*.Rd
+.Rproj.user
+.Rhistory
+.RData
+*.pdf
+*.tsv
+*.mzxml
+*.MZXML
+*.mzXML
+.kateproject*

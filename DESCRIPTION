@@ -1,0 +1,25 @@
+Package: clams
+Title: Mass spec peak picking
+Version: 1.0
+Authors@R: c(person("Chris Dejong", "Developer", role = c("aut", "cre"),
+    email = "dejonc [at] mcmaster [dot] ca"),
+    person("Michael Cannon", "Developer", role = "aut"))
+Author: Chris Dejong, Michael Cannon, Bilal Athar and Jen Cabral
+Maintainer: Chris Dejong <dejonc@mcmaster.ca>
+Description: Performs peak picking for LCMS
+Depends:
+    R (>= 3.1.1),
+    pracma,
+    mzR,
+    xcms,
+    data.table,
+    argparser,
+    tools,
+    rjson,
+    Rcpp (>= 0.11.3),
+    RcppArmadillo,
+    dplyr
+LinkingTo: Rcpp, RcppArmadillo
+License: What license is it under?
+LazyData: true
+RoxygenNote: 6.0.1
